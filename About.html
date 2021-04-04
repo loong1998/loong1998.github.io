@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="food.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="Index.html"> <img src="c85f1b6475cb440cb5a62c9573b4786e.png" alt=""></a>
+        </header>
+
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Location.html">Attraction</a></li>
+                    <li><a href="Food.html">Food</a></li>
+                    <li><a href="Fashion.html">Fashion</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Sitemap.html">Sitemap</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <main>
+            <div>
+
+            <h1 style="text-align: center;">About Us</h1>
+
+                <p style="text-align: center;">
+                    Angel Travel is a main travel organization that has been occupied with offering travel
+                    related services to more than 20 years. We are completely knowledgeable about all features of travel
+                    and tour arrangements and our main businesses are Corporate Travel Management and Incentive Travel.
+                    Also, we are located in the heart of Kuala Lumpur.
+                </p>
+
+                <h2>Send us a message</h2>
+                <form id="messageForm" style="padding-left: 20px;">
+                    <label for="fname">Your Name:
+                    <br>
+                    <input type="text" id="fname" name="fname" style="width: 250px;">
+                    </label>
+                    <br><br>
+                    <label for="email">Your E-mail:
+                    <br>
+                    <input type="email" id="email" name="email" style="width: 250px;">
+                    </label>
+                    <br><br>
+                    <label for="message">Your Message:
+                    <br>
+                    <textarea id="message" style="height: 150px; width: 300px;"></textarea>
+                    </label>
+                    <br><br>
+                    <input type="submit" value="Send">
+                </form>
+
+                <script>
+                    document.getElementById("messageForm").onsubmit = function() {submit();}
+
+                    function submit() {
+                        alert("Your message has been sent successfully!");
+                    }
+                </script>
+            </div>
+        </main>
+
+
+        <footer>
+            <p>Copyright © 2021 Free HTML Templates by Tooplate - <a href="About.html">About</a> - <a href="Sitemap.html">Sitemap</a></p>
+        </footer>
+
+    </body>
+</html>

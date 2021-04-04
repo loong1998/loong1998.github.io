@@ -1,0 +1,247 @@
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    background-image: url("ck-yeo-5J6VUR6r9Wc-unsplash.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 1400px;
+    color: rgb(58, 57, 57);
+}
+
+h1 {
+    text-align: center;
+    color: orangered;
+}
+
+h2 {
+    color: orangered;
+    padding-left: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a p {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+header {
+
+    margin-top: -10px;
+    /*border-style: solid;*/
+
+    font-size: 30px;
+    text-align: left;
+
+    background-image: url("4994653.jpg");
+    background-size: 1200px;
+
+}
+
+nav {          
+    border-style: solid;
+    padding: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: coral;
+    
+}
+
+.navCentre li{
+
+    display: inline-block;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 5px;
+    z-index: 1;
+    display: inline-block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav li {
+    position: relative;
+    padding: 10px 20px;
+    height: 100%;
+    display: flex;
+}
+
+nav li:before {
+    content: "";
+    position: absolute;
+    height: 33.33%;
+    width: 0;
+    right: 0;
+    z-index: 0;
+    top: 33.33%;
+    transition: all 0.5s;
+    background-color: #0D7CFF;
+}
+
+nav li:after {
+    content: "";
+    position: absolute;
+    height: 33.33%;
+    width: 0;
+    left: 0;
+    z-index: 0;
+    bottom: 0;
+    background-color: #0D7CFF;
+    transition: all 0.5s;
+}
+
+nav a:before {
+    position: absolute;
+    content: "";
+    height: 33.33%;
+    width: 0;
+    bottom: 66.66%;
+    left: 0;
+    transition: all 0.5s;
+    background-color: #0D7CFF;
+}
+
+nav li:hover:before,
+nav li:hover:after,
+li:hover a:before {
+    width: 100%;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.500);
+    height: 500px;
+}
+
+.onePic {
+    background-color: rgba(255, 255, 255, 0.500);
+    height: 650px;
+}
+
+div a p {
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+div a img {
+    width: 300px;
+    height: 250px;
+}
+
+.foodPic1 {
+    float: left;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.foodPic2{
+    float: left;
+    width: 15%;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+
+.foodPic3 {
+    float: right;
+    width: 32%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    padding: 5px 30px;
+    border: 1px solid rgb(90, 90, 90);
+    text-align: center;
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
+.seeMore {
+    background-color: rgba(255, 255, 255, 0.500);
+    height: 450px;
+}
+
+.content1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.content2{
+    float: right;
+    width: 45%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.picture1 {
+    float: left;
+    margin-left: 5%;
+    width: 38%;
+}
+
+.picture2 {
+    float: right;
+    margin-right: 15%;
+    width: 35%;
+}
+
+.picCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.main1 {
+    /*border-style: solid;*/
+
+    /*padding: 20px;
+    margin-right: 500px;*/
+    float: left;
+    width: 50%;
+
+    text-align: center;
+    
+}
+
+.main2{
+
+    border-style: solid;
+
+    /*margin-top: -319px;
+    margin-left: 585px;*/
+    float: right;
+    width: 45%;
+
+    text-align: center;
+
+    background-color: rgba(233, 150, 122, 0.637);
+}
+
